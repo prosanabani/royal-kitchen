@@ -2,6 +2,7 @@
   "name": "royal-kitchen",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://prosanabani.github.io/royal-kitchen",
   "type": "module",
   "scripts": {
     "lint": "eslint .",
@@ -13,7 +14,9 @@
     "preview": "vite preview",
     "messages:extract": "lingui extract",
     "messages:compile": "lingui compile",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fontsource/red-hat-display": "^5.0.20",
