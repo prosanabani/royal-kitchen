@@ -15,6 +15,9 @@ import Unimport from 'unimport/unplugin';
 // https://vitejs.dev/config/
 export default defineConfig(async () => {
   return {
+    build: {
+      outDir: 'build',
+    },
     base: '/',
     resolve: {
       alias: {
