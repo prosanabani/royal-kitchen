@@ -1,0 +1,19 @@
+@import '@fontsource/red-hat-display';
+
+* {
+  font-family: 'Red Hat Display', sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  /* background: rgba(226, 232, 240, 1); */
+  font-size: 13px;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
