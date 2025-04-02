@@ -18,7 +18,7 @@ export default defineConfig(async () => {
     build: {
       outDir: 'build',
     },
-    base: '/',
+    base: '/royal-kitchen/',
     resolve: {
       alias: {
         '@': '/app',
