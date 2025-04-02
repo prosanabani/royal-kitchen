@@ -16,7 +16,7 @@
     "messages:compile": "lingui compile",
     "typecheck": "tsc --noEmit",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -b gh-pages"
   },
   "dependencies": {
     "@fontsource/red-hat-display": "^5.0.20",
@@ -59,6 +59,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "eslint-plugin-sonarjs": "^0.23.0",
+    "gh-pages": "^6.3.0",
     "globals": "^15.8.0",
     "happy-dom": "^12.10.3",
     "prettier": "^3.3.3",
